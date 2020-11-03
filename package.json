@@ -1,16 +1,41 @@
 {
+  
+  "homepage": "http://Adamant001100.github.io/kcell_api",
   "name": "kcell-api",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "antd": "^4.7.2",
+    "audio-sync-with-text": "^1.0.0",
+    "axios": "^0.20.0",
+    "bootstrap": "^4.5.3",
+    "csvtojson": "^2.0.10",
+    "es6-promise": "^4.2.8",
+    "isomorphic-fetch": "^3.0.0",
+    "libphonenumber-js": "^1.8.4",
+    "moment": "^2.29.1",
+    "papaparse": "^5.3.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.3"
+    "react-h5-audio-player": "^3.4.1",
+    "react-headless-phone-input": "^2.0.0",
+    "react-lectorem": "^1.0.2",
+    "react-moment": "^1.0.0",
+    "react-player": "^2.6.2",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.3",
+    "react-simple-timestamp-to-date": "^1.0.3",
+    "react-speech-recognition": "^3.2.3",
+    "react-use-audio-player": "^1.2.2",
+    "speech-to-text": "^2.9.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -30,5 +55,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
   }
 }
