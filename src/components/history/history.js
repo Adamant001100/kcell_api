@@ -35,7 +35,7 @@ const columns = [
 ];
 
 const url =
-  "https://digitalagent.vpbx.kcell.kz/sys/crm_api.wcgp?cmd=history&token=d32014d6-1d7d-4c80-bd10-f9108aa8f22c";
+  "https://digitalagent.vpbx.kcell.kz/sys/crm_api.wcgp?cmd=history&period=last_month&token=d32014d6-1d7d-4c80-bd10-f9108aa8f22c";
 
 function App() {
   const [data, setData] = useState("");
