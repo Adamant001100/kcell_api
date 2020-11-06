@@ -1,11 +1,11 @@
 {
-  
   "homepage": "http://Adamant001100.github.io/kcell_api",
   "name": "kcell-api",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-
+    "@bbc/react-transcript-editor": "^1.4.1-alpha.8",
+    "@capacitor-community/speech-recognition": "^0.0.4",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
@@ -15,6 +15,7 @@
     "bootstrap": "^4.5.3",
     "csvtojson": "^2.0.10",
     "es6-promise": "^4.2.8",
+    "express": "^4.17.1",
     "isomorphic-fetch": "^3.0.0",
     "libphonenumber-js": "^1.8.4",
     "moment": "^2.29.1",

@@ -4,6 +4,7 @@ import Papa from "papaparse";
 import "antd/dist/antd.css";
 import { Table } from "antd";
 import ReactPlayer from "react-player";
+//import { Transcripteditor } from "@bbc/react-transcript-editor";
 
 const columns = [
   {
@@ -29,12 +30,12 @@ const columns = [
 
   {
     title: "Транскрибация",
-    dataIndex: "",
+    dataIndex: "audio2text",
   },
 ];
 
 const url =
-  "https://digitalagent.vpbx.kcell.kz/sys/crm_api.wcgp?cmd=history&period=last_month&token=41d74a21-2e81-41f7-9017-194f7dbd3f84";
+  "https://digitalagent.vpbx.kcell.kz/sys/crm_api.wcgp?cmd=history&token=d32014d6-1d7d-4c80-bd10-f9108aa8f22c";
 
 function App() {
   const [data, setData] = useState("");
@@ -54,7 +55,9 @@ function App() {
 
   return (
     <div className="App">
-      <h2>Показать за</h2>
+     
+
+      {/*<button onClick={handleClick}>Click</button>*/}
 
       {data && renderUsers(setDataSource(data))}
     </div>
@@ -62,11 +65,6 @@ function App() {
 }
 
 export default App;
-
-//Фильтровать данные звонков
-//========================================================//
-
-//===========================================================//
 
 const renderUsers = (arr) =>
   arr && (
@@ -101,6 +99,10 @@ const setDataSource = (arr) => {
             />
           ),
         };
+
+        //===============================================//
+
+        //===============================================//
       } else {
         ob = { ...ob, [key]: i[key] };
       }
