@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/kcell_api/precache-manifest.d25c5a9ccc7cf110746091b39bbaaf10.js"
+  "/kcell_api/precache-manifest.0c4de659a1870e62445dcc11175fc787.js"
 );
 
 self.addEventListener('message', (event) => {
