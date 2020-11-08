@@ -14,7 +14,7 @@ class App extends Component {
             <ul className="navbar-nav mr-auto">
               <br />
               <li>
-                <Link to={"/history"}> История звонков </Link>
+                <Link to={"/history"}> История звонков Kcell </Link>
               </li>
             </ul>
           </nav>
