@@ -34,7 +34,7 @@ const columns = [
   {
     title: "Транскрибация",
     dataIndex: "audio2text",
-    render: (record) => <a href={"https://sonix.ai/r/jWAPMfm8Nkyw628NLu3Cp3Ze/share"}>Субтитры{record}</a>
+    render: audio2text => <a href='https://sonix.ai/r/jWAPMfm8Nkyw628NLu3Cp3Ze/share'>Субтитры{audio2text}</a>
   },
 ];
 
