@@ -6,6 +6,8 @@ import { Table } from "antd";
 import ReactPlayer from "react-player";
 //import { Transcripteditor } from "@bbc/react-transcript-editor";
 
+
+
 const columns = [
   {
     title: "Клиент",
@@ -26,11 +28,13 @@ const columns = [
   {
     title: "Запись",
     dataIndex: "record",
+    
   },
 
   {
     title: "Транскрибация",
     dataIndex: "audio2text",
+    render: (record) => <a href={"https://sonix.ai/r/jWAPMfm8Nkyw628NLu3Cp3Ze/share"}>Субтитры{record}</a>
   },
 ];
 
@@ -39,6 +43,11 @@ const url =
 
 function App() {
   const [data, setData] = useState("");
+
+  //=====================TRANSCRIBE
+
+   
+
 
   useEffect(() => {
     axios
@@ -50,16 +59,20 @@ function App() {
       .then(async (res) => {
         const arr = await Papa.parse(res.data, config);
         setData(converter(arr.data));
+    
+
+    
       });
   }, []);
 
   return (
     <div className="App">
-     
-
       {/*<button onClick={handleClick}>Click</button>*/}
 
       {data && renderUsers(setDataSource(data))}
+
+      
+
     </div>
   );
 }
@@ -78,6 +91,7 @@ const renderUsers = (arr) =>
         height: 0,
       }}
       dataSource={arr}
+
     />
   );
 
@@ -112,6 +126,9 @@ const setDataSource = (arr) => {
   });
 };
 
+//Audio-to-text==============================================
+
+
 const converter = (arr) => {
   let data = arr.filter((i) => i.length > 0);
 
@@ -126,6 +143,7 @@ const converter = (arr) => {
     duration: i[7],
     record: i[8],
     all: i[9],
+    audio2text: i[10]
   }));
 };
 
