@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/kcell_api/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/kcell_api/static/js/main.71609d41.chunk.js",
-    "main.js.map": "/kcell_api/static/js/main.71609d41.chunk.js.map",
+    "main.js": "/kcell_api/static/js/main.7f5ab901.chunk.js",
+    "main.js.map": "/kcell_api/static/js/main.7f5ab901.chunk.js.map",
     "runtime-main.js": "/kcell_api/static/js/runtime-main.93b939bc.js",
     "runtime-main.js.map": "/kcell_api/static/js/runtime-main.93b939bc.js.map",
     "static/css/2.30eff9c5.chunk.css": "/kcell_api/static/css/2.30eff9c5.chunk.css",
     "static/js/2.e2d1b9fe.chunk.js": "/kcell_api/static/js/2.e2d1b9fe.chunk.js",
     "static/js/2.e2d1b9fe.chunk.js.map": "/kcell_api/static/js/2.e2d1b9fe.chunk.js.map",
     "index.html": "/kcell_api/index.html",
-    "precache-manifest.0c4de659a1870e62445dcc11175fc787.js": "/kcell_api/precache-manifest.0c4de659a1870e62445dcc11175fc787.js",
+    "precache-manifest.e7539656d2f9b7580a2fa6918d5b3ae6.js": "/kcell_api/precache-manifest.e7539656d2f9b7580a2fa6918d5b3ae6.js",
     "service-worker.js": "/kcell_api/service-worker.js",
     "static/css/2.30eff9c5.chunk.css.map": "/kcell_api/static/css/2.30eff9c5.chunk.css.map",
     "static/css/main.5ecd60fb.chunk.css.map": "/kcell_api/static/css/main.5ecd60fb.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.30eff9c5.chunk.css",
     "static/js/2.e2d1b9fe.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.71609d41.chunk.js"
+    "static/js/main.7f5ab901.chunk.js"
   ]
 }

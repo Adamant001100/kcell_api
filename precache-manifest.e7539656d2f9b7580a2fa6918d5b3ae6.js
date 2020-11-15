@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0d08b436ce081f63d2c172b0f5732938",
+    "revision": "f98ce13bed02cd523b5b39ca17c0c23a",
     "url": "/kcell_api/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kcell_api/static/css/2.30eff9c5.chunk.css"
   },
   {
-    "revision": "d05ab486e17cd397242d",
+    "revision": "531016c2bb5c115c20bf",
     "url": "/kcell_api/static/css/main.5ecd60fb.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kcell_api/static/js/2.e2d1b9fe.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d05ab486e17cd397242d",
-    "url": "/kcell_api/static/js/main.71609d41.chunk.js"
+    "revision": "531016c2bb5c115c20bf",
+    "url": "/kcell_api/static/js/main.7f5ab901.chunk.js"
   },
   {
     "revision": "4567cd9a350c19d85c20",
